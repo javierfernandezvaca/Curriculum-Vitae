@@ -7,7 +7,7 @@
 **E-mail**: javierfernandezvaca@gmail.com  
 **Teléfono**: +53 56073219  
 **Dirección**: 5 Norte E/ 4 y 5 Este, Rpto. Rio Guaso, Guantánamo, Cuba  
-**Última actualización**: 2 de noviembre de 2023  
+**Última actualización**: 20 de enero de 2024  
 
 ## Experiencia Profesional
 
