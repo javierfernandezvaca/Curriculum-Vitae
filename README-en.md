@@ -1,3 +1,6 @@
+[![English](https://img.shields.io/badge/Language-English-blueviolet?style=for-the-badge)](README-en.md)
+[![Spanish](https://img.shields.io/badge/Language-Spanish-blueviolet?style=for-the-badge)](README.md)
+
 # **Curriculum Vitae**
 
 ![GitHub Logo](https://media.licdn.com/dms/image/C4D03AQHWrrkI_rFJKQ/profile-displayphoto-shrink_200_200/0/1561484471475?e=2147483647&v=beta&t=5xPkDrU5hqzyN7hM-9rRHrg41KnaK9PD-0CS2Fbcqf4)
