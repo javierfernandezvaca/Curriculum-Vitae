@@ -1,32 +1,30 @@
-[![English](https://img.shields.io/badge/Idioma-Ingles-blueviolet?style=for-the-badge)](README-en.md)
-[![Spanish](https://img.shields.io/badge/Idioma-Español-blueviolet?style=for-the-badge)](README.md)
-
 # Currículum Vitae
 
-![Logo de GitHub](https://media.licdn.com/dms/image/C4D03AQHWrrkI_rFJKQ/profile-displayphoto-shrink_200_200/0/1561484471475?e=2147483647&v=beta&t=5xPkDrU5hqzyN7hM-9rRHrg41KnaK9PD-0CS2Fbcqf4)
+![Profile Image](https://media.licdn.com/dms/image/C4D03AQHWrrkI_rFJKQ/profile-displayphoto-shrink_200_200/0/1561484471475?e=2147483647&v=beta&t=5xPkDrU5hqzyN7hM-9rRHrg41KnaK9PD-0CS2Fbcqf4)
 
-**Nombre**: Javier Fernández Vaca  
-**Profesión**: Ingeniero de Software  
-**E-mail**: javierfernandezvaca@gmail.com  
-**Teléfono**: +53 56073219  
-**Dirección**: 5 Norte E/ 4 y 5 Este, Rpto. Rio Guaso, Guantánamo, Cuba  
-**Última actualización**: 20 de enero de 2024  
+| | |
+| ------------------------- | -------------------------                                   |
+| **Nombre**                | Javier Fernández Vaca                                       |
+| **Profesión**             | Ingeniero de Software                                       |
+| **E-mail**                | javierfernandezvaca@gmail.com                               |
+| **Teléfono**              | +53 56073219                                                |
+| **Dirección**             | 5 Norte E/ 4 y 5 Este, Rpto. Rio Guaso, Guantánamo, Cuba.   |
+| **Última actualización**  | 4 de julio de 2024                                          |
 
 ## Experiencia Profesional
 
-**Profesor Asistente**  
-Universidad de Guantánamo, Cuba  
-Septiembre 2015 – Presente  
-
-**Ingeniero de Software**  
-Universidad de Guantánamo, Cuba  
-Septiembre 2015 – Presente  
+- **Profesor Asistente**:
+    - Universidad de Guantánamo, Cuba.
+    - `Septiembre 2015 – Presente`
+- **Ingeniero de Software**:
+    - Universidad de Guantánamo, Cuba.
+    - `Septiembre 2015 – Presente`
 
 ## Educación Recibida
 
-**Licenciatura en Ciencias de la Computación**  
-Universidad de Oriente, Santiago de Cuba, Cuba  
-Septiembre 2006 – Mayo 2011  
+- **Licenciatura en Ciencias de la Computación**:
+    - Universidad de Oriente, Santiago de Cuba, Cuba.
+    - `Septiembre 2006 – Mayo 2011`
 
 ## Cursos Recibidos
 
