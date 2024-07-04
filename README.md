@@ -1,8 +1,6 @@
 # Currículum Vitae
 
-![Profile Image](https://media.licdn.com/dms/image/C4D03AQHWrrkI_rFJKQ/profile-displayphoto-shrink_200_200/0/1561484471475?e=2147483647&v=beta&t=5xPkDrU5hqzyN7hM-9rRHrg41KnaK9PD-0CS2Fbcqf4)
-
-| | |
+| ![Profile Image](https://media.licdn.com/dms/image/C4D03AQHWrrkI_rFJKQ/profile-displayphoto-shrink_200_200/0/1561484471475?e=2147483647&v=beta&t=5xPkDrU5hqzyN7hM-9rRHrg41KnaK9PD-0CS2Fbcqf4) | |
 | ------------------------- | -------------------------                                   |
 | **Nombre**                | Javier Fernández Vaca                                       |
 | **Profesión**             | Ingeniero de Software                                       |
@@ -13,9 +11,6 @@
 
 ## Experiencia Profesional
 
-- **Profesor Asistente**:
-    - Universidad de Guantánamo, Cuba.
-    - `Septiembre 2015 – Presente`
 - **Ingeniero de Software**:
     - Universidad de Guantánamo, Cuba.
     - `Septiembre 2015 – Presente`
@@ -44,12 +39,12 @@
 
 ## Habilidades Técnicas
 
-[![Static Badge](https://img.shields.io/badge/Desktop-C,%20C++,%20electron,%20Dart-blueviolet?style=for-the-badge)](#1)  
-[![Static Badge](https://img.shields.io/badge/Frontend-HTML,%20CSS,%20JS,%20jQuery,%20Bootstrap,%20Vue,%20Angular%20&%20Ionic-blueviolet?style=for-the-badge)](#1)  
-[![Static Badge](https://img.shields.io/badge/Backend-PHP:%20Laravel,%20Node:%20Express,%20Adonis%20JS,%20Java:%20Spring%20Boot-blueviolet?style=for-the-badge)](#1)  
-[![Static Badge](https://img.shields.io/badge/Mobile-Angular%20&%20Ionic,%20Flutter-blueviolet?style=for-the-badge)](#1)  
-<!-- [![Static Badge](https://img.shields.io/badge/Experto-Ionic-FBBC05?style=for-the-badge)](#Skills) -->
-
+| Apps  | Skills  |
+|:----------|:----------|
+| Desktop | C, C++, Dart |
+| Frontend | HTML, CSS, JavaScript, jQuery, Bootstrap, Angular, Ionic |
+| Backend | Laravel, Spring Boot, NestJS |
+| Mobile | Ionic, Flutter |
 
 ## Trabajos Realizados
 
