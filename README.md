@@ -5,7 +5,7 @@
 | **E-mail**                | javierfernandezvaca@gmail.com                               |
 | **Teléfono**              | +53 56073219                                                |
 | **Dirección**             | 5 Norte E/ 4 y 5 Este, Rpto. Rio Guaso, Guantánamo, Cuba.   |
-| **Última actualización**  | 4 de julio de 2024                                          |
+| **Última actualización**  | 6 de enero de 2025                                          |
 
 ## Currículum Vitae
 
@@ -53,6 +53,18 @@
 | Mobile | Ionic, Flutter |
 
 ## Trabajos Realizados
+
+- ### DasCortez
+    **Empresa**: `idooGROUP Technologies Inc` – `México`  
+    **Período**: Noviembre 2024 – Diciembre 2024  
+    **Descripción**: Aplicación móvil multiplataforma para la gestión, reservas y ventas de productos a base de Café por cliente privado.  
+    **Tecnología**: `Flutter`
+    
+- ### INDEX
+    **Empresa**: `idooGROUP Technologies Inc` – `México`  
+    **Período**: Agosto 2024 – Diciembre 2024  
+    **Descripción**: Aplicación móvil multiplataforma para la gestión de eventos y servicios de negocios particulares por cliente privado.  
+    **Tecnología**: `Flutter`  
 
 - ### eVisas
     **Empresa**: `Business IT` – `Ecuador`  
