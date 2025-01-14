@@ -5,7 +5,7 @@
 | **E-mail**                | javierfernandezvaca@gmail.com                               |
 | **Teléfono**              | +53 56073219                                                |
 | **Dirección**             | 5 Norte E/ 4 y 5 Este, Rpto. Rio Guaso, Guantánamo, Cuba.   |
-| **Última actualización**  | 6 de enero de 2025                                          |
+| **Última actualización**  | 14 de enero de 2025                                          |
 
 ## Currículum Vitae
 
@@ -47,9 +47,9 @@
 
 | Apps  | Skills  |
 |:----------|:----------|
-| Desktop | C, C++, Dart |
-| Frontend | HTML, CSS, JavaScript, jQuery, Bootstrap, Angular, Ionic |
-| Backend | Laravel, Spring Boot, NestJS |
+| Desktop | C/C++, Flutter |
+| Frontend | HTML, CSS, JavaScript, Angular, Vue, Ionic, Flutter |
+| Backend | PHP con Laravel, Java con Spring Boot, Node con NestJS, Go |
 | Mobile | Ionic, Flutter |
 
 ## Trabajos Realizados
