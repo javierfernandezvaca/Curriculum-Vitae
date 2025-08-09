@@ -213,14 +213,14 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
   </thead>
   <tbody>
     <tr>
-      <td>Das Cortez</td>
+      <td>Serena Care</td>
       <td>
         idooGROUP Technologies Inc<br>
         <code>México</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implemento la aplicación móvil multiplataforma que optimiza el proceso de compra y venta de productos a base de café, mejorando la eficiencia operativa del cliente.</td>
-      <td>Noviembre 2024 – Presente</td>
+      <td>Implemento la aplicación móvil multiplataforma para la gestión de servicios asistenciales a residentes, que incluye atención médica, programas de bienestar, cuidado de memoria y estancias temporales, con funciones para seguimiento, coordinación médica y comunicación con familiares.</td>
+      <td>Mayo 2025 – Presente</td>
     </tr>
     <tr>
       <td>INDEX</td>
@@ -229,8 +229,18 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>México</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma que automatiza la gestión de eventos y servicios empresariales, mejorando la experiencia del usuario final.</td>
-      <td>Agosto 2024 – Abril 2025</td>
+      <td>Implemento la aplicación móvil multiplataforma que conecta a trabajadores con los beneficios de su sindicato, permitiendo gestionar trámites, cuestionarios de bienestar, eventos y cupones desde un solo lugar, con notificaciones en tiempo real y acceso seguro.</td>
+      <td>Agosto 2024 – Presente</td>
+    </tr>
+    <tr>
+      <td>Das Cortez</td>
+      <td>
+        idooGROUP Technologies Inc<br>
+        <code>México</code>
+      </td>
+      <td><code>Flutter</code></td>
+      <td>Implementé parte la aplicación móvil multiplataforma que optimiza el proceso de compra y venta de productos a base de café, mejorando la eficiencia operativa del cliente.</td>
+      <td>Abril 2025 – Junio 2025</td>
     </tr>
     <tr>
       <td>eVisas</td>
@@ -240,7 +250,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>Ecuador</code>
       </td>
       <td><code>Angular</code></td>
-      <td>Implementé varios módulos que fueron clave para la plataforma web 'eVisas', optimizando la gestión de visas electrónicas para el Gobierno de Ecuador tanto en su interfaz pública como administrativa.</td>
+      <td>Implementé módulos clave para el portal 'eVisas', el sistema oficial 100% en línea del Gobierno de Ecuador para la gestión de visas. Mi trabajo optimizó tanto la interfaz pública para solicitantes como el panel administrativo, facilitando trámites cruciales como la solicitud, cancelación y transferencia de visas.</td>
       <td>Junio 2024 – Junio 2024</td>
     </tr>
     <tr>
@@ -250,7 +260,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>Estados Unidos</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma que revoluciona la promoción y gestión de servicios en establecimientos nocturnos y eventos sociales, mejorando la experiencia del cliente.</td>
+      <td>Implementé la aplicación móvil multiplataforma para revolucionar la gestión en la industria de la vida nocturna. Desarrollé funcionalidades clave, incluyendo un sistema de pedidos en la app para aumentar los ingresos, "Flash Passes" para acceso prioritario, gestión integral de eventos en tiempo real para la toma de decisiones del cliente.</td>
       <td>Diciembre 2023 – Junio 2024</td>
     </tr>
     <tr>
@@ -260,7 +270,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>México</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma que simplifica y automatiza el proceso de alquiler de vehículos, mejorando la eficiencia operativa y la satisfacción del cliente.</td>
+      <td>Implementé la aplicación móvil multiplataforma para una empresa de alquiler de vehículos con múltiples sucursales. Desarrollé un sistema de reservas intuitivo para su diversa flota, gestión de alquileres, un programa de recompensas y la integración de descuentos exclusivos para fidelizar clientes e impulsar las conversiones.</td>
       <td>Noviembre 2023 – Junio 2024</td>
     </tr>
     <tr>
@@ -291,7 +301,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>República Dominicana</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma crítica para la gestión y respuesta ante incidencias y riesgos de catástrofes naturales, fortaleciendo la capacidad de respuesta de la Defensa Civil.</td>
+      <td>Implementé la aplicación móvil para el Sistema Integrado Nacional de Información (SINI). Mi desarrollo fue la pieza central para la posterior aplicación pública "Alertado", creando las herramientas para el reporte de emergencias por parte de los ciudadanos y la gestión de incidencias por parte de la Defensa Civil, optimizando la respuesta y prevención de riesgos a nivel nacional.</td>
       <td>Febrero 2023 – Julio 2023</td>
     </tr>
     <tr>
@@ -301,7 +311,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>República Dominicana</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma que moderniza la gestión agrícola empresarial, optimizando procesos y mejorando la toma de decisiones.</td>
+      <td>Implementé una aplicación móvil multiplataforma de gestión agrícola empresarial. Desarrollé módulos para la optimización de procesos clave, el seguimiento de la producción en tiempo real y el análisis de datos, mejorando la toma de decisiones estratégicas para las operaciones agrícolas del cliente.</td>
       <td>Enero 2023 – Julio 2023</td>
     </tr>
     <tr>
@@ -311,7 +321,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>República Dominicana</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma que revoluciona la gestión agrícola, facilitando el seguimiento y optimización de operaciones en el campo.</td>
+      <td>Desarrollé la app móvil para GanaclimaRD, iniciativa nacional asistida por la FAO, que ayuda a los agricultores a adoptar prácticas climáticamente inteligentes para reducir emisiones y aumentar la productividad.</td>
       <td>Octubre 2022 – Julio 2023</td>
     </tr>
     <tr>
@@ -321,7 +331,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>Chile</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma que automatiza y agiliza el proceso de auditorías profesionales de mercado, mejorando la precisión y eficiencia.</td>
+      <td>Implementé la app móvil de auditoría para la firma de inteligencia de mercado CademSmart. La herramienta digitaliza el levantamiento de datos en el punto de venta, permitiendo a los auditores de campo registrar información crítica como disponibilidad de stock, precios y cumplimiento de promociones en tiempo real para los clientes B2B de la compañía.</td>
       <td>Febrero 2022 – Diciembre 2022</td>
     </tr>
     <tr>
@@ -331,7 +341,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>España</code>
       </td>
       <td><code>Ionic & Angular</code></td>
-      <td>Implementé el programa de certificación profesional para el desarrollo con Ionic y Angular, elevando el nivel de competencia técnica de los desarrolladores.</td>
+      <td>Implementé el programa de certificación profesional para Xpertopolis, una innovadora plataforma de contratación que utiliza IA y Blockchain para eliminar sesgos. Mi desarrollo fue clave para certificar objetivamente las habilidades técnicas de los desarrolladores en Ionic y Angular, asegurando la fiabilidad y transparencia en el proceso de selección de expertos.</td>
       <td>Julio 2022 – Diciembre 2022</td>
     </tr>
     <tr>
@@ -361,7 +371,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>México</code>
       </td>
       <td><code>Ionic & Angular</code></td>
-      <td>Implementé la aplicación móvil multiplataforma crucial para la detección temprana y gestión eficiente de casos COVID-19 en empresas estatales mexicanas.</td>
+      <td>Implementé CIMEMP, una aplicación móvil crucial para la gestión de la salud en empresas estatales mexicanas durante la pandemia. Desarrollé sus funciones clave, incluyendo el registro de análisis clínicos, seguimiento de síntomas y generación de reportes, para facilitar una detección temprana y una gestión eficiente de los casos de COVID-19.</td>
       <td>Julio 2020 – Septiembre 2020</td>
     </tr>
     <tr>
@@ -381,7 +391,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>España</code>
       </td>
       <td><code>HTML, CSS, JavaScript, jQuery y Bootstrap</code></td>
-      <td>Implementé una aplicación web que revoluciona la gestión y seguimiento en tiempo real de paquetería instantánea, mejorando la eficiencia logística.</td>
+      <td>Implementé GETRIX, la aplicación web de cliente para la empresa de mensajería instantánea Instapack. Mi desarrollo fue clave para su sistema de seguimiento, permitiendo a los usuarios visualizar el repartidor en un mapa en tiempo real, recibir notificaciones detalladas del progreso y contactar directamente al mensajero, mejorando radicalmente la transparencia en la logística.</td>
       <td>Enero 2018 – Julio 2018</td>
     </tr>
     <tr>
