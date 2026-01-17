@@ -270,7 +270,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>México</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma para una empresa de alquiler de vehículos con múltiples sucursales. Desarrollé un sistema de reservas intuitivo para su diversa flota, gestión de alquileres, un programa de recompensas y la integración de descuentos exclusivos para fidelizar clientes e impulsar las conversiones.</td>
+      <td>Desarrollé la aplicación móvil multiplataforma para Street Rent a Car, una empresa de alquiler de vehículos con múltiples sucursales. Implementé un sistema de reservas intuitivo para una flota diversa, gestión completa de alquileres, un programa de recompensas y la integración de descuentos exclusivos para impulsar la fidelización y aumentar las conversiones. También optimicé la experiencia del usuario en procesos clave como selección de vehículo, fechas, sucursal y métodos de pago.</td>
       <td>Noviembre 2023 – Junio 2024</td>
     </tr>
     <tr>
