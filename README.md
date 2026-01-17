@@ -250,7 +250,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>Ecuador</code>
       </td>
       <td><code>Angular</code></td>
-      <td>Implementé módulos clave para el portal 'eVisas', el sistema oficial 100% en línea del Gobierno de Ecuador para la gestión de visas. Mi trabajo optimizó tanto la interfaz pública para solicitantes como el panel administrativo, facilitando trámites cruciales como la solicitud, cancelación y transferencia de visas.</td>
+      <td>Desarrollé módulos clave para e‑Visas, el sistema oficial del Gobierno de Ecuador para la gestión electrónica de visas, disponible 24/7 y 100% en línea. Contribuí tanto a la interfaz pública para solicitantes como al panel administrativo interno, implementando flujos críticos para la solicitud, cancelación y transferencia de visas, así como validaciones, formularios dinámicos y mejoras de usabilidad orientadas a reducir errores y agilizar trámites.</td>
       <td>Junio 2024 – Junio 2024</td>
     </tr>
     <tr>
