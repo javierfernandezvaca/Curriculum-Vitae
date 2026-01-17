@@ -219,7 +219,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>México</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implemento la aplicación móvil multiplataforma para la gestión de servicios asistenciales a residentes, que incluye atención médica, programas de bienestar, cuidado de memoria y estancias temporales, con funciones para seguimiento, coordinación médica y comunicación con familiares.</td>
+      <td>Desarrollé la aplicación móvil multiplataforma para Serena Care, una red de residencias especializadas en atención integral para adultos mayores. La app centraliza servicios asistenciales como atención médica, programas de bienestar, memoria, estancias temporales y respuesta a emergencias 24/7. Implementé módulos para seguimiento clínico, coordinación con personal médico, comunicación con familiares y acceso a información de centros certificados (ISO 9001:2015, REPSSABI).</td>
       <td>Mayo 2025 – Enero 2026</td>
     </tr>
     <tr>
