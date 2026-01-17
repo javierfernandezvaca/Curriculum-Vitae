@@ -239,7 +239,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>México</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé parte la aplicación móvil multiplataforma que optimiza el proceso de compra y venta de productos a base de café, mejorando la eficiencia operativa del cliente.</td>
+      <td>Participé en el desarrollo de la aplicación móvil multiplataforma para Das Cortez, una marca especializada en cafés finos y productos premium. Implementé módulos clave para mejorar la experiencia de compra, navegación de catálogo, gestión de productos y flujo de pedidos, optimizando la operación del cliente y facilitando la venta de café, gift cards y artículos relacionados.</td>
       <td>Abril 2025 – Junio 2025</td>
     </tr>
     <tr>
