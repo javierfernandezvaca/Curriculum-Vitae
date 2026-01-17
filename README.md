@@ -220,7 +220,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
       </td>
       <td><code>Flutter</code></td>
       <td>Implemento la aplicación móvil multiplataforma para la gestión de servicios asistenciales a residentes, que incluye atención médica, programas de bienestar, cuidado de memoria y estancias temporales, con funciones para seguimiento, coordinación médica y comunicación con familiares.</td>
-      <td>Mayo 2025 – Presente</td>
+      <td>Mayo 2025 – Enero 2026</td>
     </tr>
     <tr>
       <td>INDEX</td>
@@ -230,7 +230,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
       </td>
       <td><code>Flutter</code></td>
       <td>Implemento la aplicación móvil multiplataforma que conecta a trabajadores con los beneficios de su sindicato, permitiendo gestionar trámites, cuestionarios de bienestar, eventos y cupones desde un solo lugar, con notificaciones en tiempo real y acceso seguro.</td>
-      <td>Agosto 2024 – Presente</td>
+      <td>Agosto 2024 – Enero 2026</td>
     </tr>
     <tr>
       <td>Das Cortez</td>
