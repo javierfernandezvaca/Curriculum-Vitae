@@ -260,7 +260,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>Estados Unidos</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma para revolucionar la gestión en la industria de la vida nocturna. Desarrollé funcionalidades clave, incluyendo un sistema de pedidos en la app para aumentar los ingresos, "Flash Passes" para acceso prioritario, gestión integral de eventos en tiempo real para la toma de decisiones del cliente.</td>
+      <td>Desarrollé la aplicación móvil multiplataforma para Swin Drinks, una plataforma diseñada para optimizar la operación de bares, clubes y eventos en la industria de la vida nocturna. Implementé funcionalidades clave como pedidos in‑app para incrementar ingresos, “Flash Passes” para acceso prioritario y un sistema de gestión de eventos en tiempo real que permite a los administradores tomar decisiones operativas basadas en datos.</td>
       <td>Diciembre 2023 – Junio 2024</td>
     </tr>
     <tr>
