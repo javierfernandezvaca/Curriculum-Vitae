@@ -229,7 +229,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>México</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implemento la aplicación móvil multiplataforma que conecta a trabajadores con los beneficios de su sindicato, permitiendo gestionar trámites, cuestionarios de bienestar, eventos y cupones desde un solo lugar, con notificaciones en tiempo real y acceso seguro.</td>
+      <td>Desarrollé la aplicación móvil multiplataforma que conecta a trabajadores con los beneficios de su sindicato, permitiendo gestionar trámites, responder cuestionarios de bienestar (incluyendo NOM‑035), inscribirse a eventos y acceder a cupones desde un solo lugar. Integré notificaciones en tiempo real, autenticación segura y accesos directos a servicios empresariales.</td>
       <td>Agosto 2024 – Enero 2026</td>
     </tr>
     <tr>
