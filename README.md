@@ -280,7 +280,7 @@ Ingeniero de Software con más de 13 años de experiencia en el desarrollo full-
         <code>México</code>
       </td>
       <td><code>Flutter</code></td>
-      <td>Implementé la aplicación móvil multiplataforma que potencia las ventas online de servicios y productos, implementando características avanzadas de comercio electrónico.</td>
+      <td>Desarrollé la aplicación móvil multiplataforma Stream Dealer, un marketplace especializado en cartas coleccionables y productos relacionados. Implementé funcionalidades clave como publicación y gestión de artículos, compra y venta segura, búsqueda avanzada por colección y rareza, sistema de favoritos, inventario personal y herramientas para conectar a compradores y vendedores dentro de una comunidad activa. La app fue construida con Flutter, optimizando rendimiento, navegación y experiencia de usuario para un flujo de comercio ágil y confiable.</td>
       <td>Junio 2023 – Noviembre 2023</td>
     </tr>
     <tr>
