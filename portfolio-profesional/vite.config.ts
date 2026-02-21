@@ -4,7 +4,10 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // Base path for GitHub Pages: https://javierfernandezvaca.github.io/Curriculum-Vitae/
+  // 
+  // Base path for GitHub Pages:
+  // https://javierfernandezvaca.github.io/Curriculum-Vitae/
+  // 
   base: '/Curriculum-Vitae/',
   plugins: [react(), tailwindcss()],
   resolve: {

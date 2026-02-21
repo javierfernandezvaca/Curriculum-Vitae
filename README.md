@@ -8,7 +8,7 @@
 <table>
   <tr>
     <td style="width: 200px; vertical-align: top;">
-      <img src="https://media.licdn.com/dms/image/C4D03AQHWrrkI_rFJKQ/profile-displayphoto-shrink_200_200/0/1561484471475?e=2147483647&v=beta&t=5xPkDrU5hqzyN7hM-9rRHrg41KnaK9PD-0CS2Fbcqf4" alt="Profile Image" width="200"/>
+      <img src="portfolio-profesional/public/profile-image.jpg" alt="Profile Image" width="200"/>
     </td>
     <td style="vertical-align: top; padding-left: 20px;">
       <strong>Nombre:</strong> Javier Fernández Vaca<br>

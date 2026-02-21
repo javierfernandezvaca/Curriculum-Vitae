@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { 
-  Github, 
-  Linkedin, 
-  Mail, 
-  Phone, 
-  MapPin, 
-  ExternalLink, 
-  Code2, 
-  GraduationCap, 
-  Briefcase, 
-  Cpu, 
-  Smartphone, 
-  Globe, 
+import {
+  Github,
+  Linkedin,
+  Mail,
+  Phone,
+  MapPin,
+  ExternalLink,
+  Code2,
+  GraduationCap,
+  Briefcase,
+  Cpu,
+  Smartphone,
+  Globe,
   Terminal,
   ChevronRight,
   Download,
@@ -189,17 +189,17 @@ export default function App() {
 
   const filteredProjects = PROJECTS.filter(project => {
     if (activeFilter === 'Todos') return true;
-    
+
     const tech = project.tech.map(t => t.toLowerCase());
-    
+
     if (activeFilter === 'Móvil') {
       return tech.some(t => ['flutter', 'ionic', 'mobile', 'móvil', 'kotlin'].includes(t));
     }
-    
+
     if (activeFilter === 'Web') {
       return tech.some(t => ['angular', 'react', 'vue', 'html', 'css', 'js', 'web', 'javascript'].includes(t));
     }
-    
+
     return project.tech.includes(activeFilter);
   });
 
@@ -218,8 +218,8 @@ export default function App() {
             <a href="#experience" className="hover:text-zinc-900 transition-colors">Experiencia</a>
             <a href="#skills" className="hover:text-zinc-900 transition-colors">Habilidades</a>
             <a href="#projects" className="hover:text-zinc-900 transition-colors">Proyectos</a>
-            <a 
-              href="mailto:javierfernandezvaca@gmail.com" 
+            <a
+              href="mailto:javierfernandezvaca@gmail.com"
               className="px-4 py-2 bg-zinc-900 text-white rounded-full hover:bg-zinc-800 transition-all shadow-sm"
             >
               Contactar
@@ -231,7 +231,7 @@ export default function App() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -248,12 +248,12 @@ export default function App() {
               Software
             </h1>
             <p className="text-xl text-zinc-600 leading-relaxed mb-8 max-w-xl">
-              Soy un ingeniero full-stack con más de 13 años de experiencia creando 
+              Soy un ingeniero full-stack con más de 13 años de experiencia creando
               aplicaciones móviles y web de alto rendimiento. Con sede en Cuba, trabajando para el mundo.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a 
-                href="https://javierfernandezvaca.github.io/Curriculum-Vitae/" 
+              <a
+                href="https://javierfernandezvaca.github.io/Curriculum-Vitae/"
                 target="_blank"
                 className="flex items-center gap-2 px-6 py-3 bg-zinc-900 text-white rounded-xl font-semibold hover:bg-zinc-800 transition-all shadow-lg shadow-zinc-200"
               >
@@ -264,10 +264,10 @@ export default function App() {
                 <a href="mailto:javierfernandezvaca@gmail.com" className="p-3 rounded-xl border border-zinc-200 hover:bg-zinc-50 transition-colors">
                   <Mail className="w-5 h-5 text-zinc-600" />
                 </a>
-                <a href="https://linkedin.com" className="p-3 rounded-xl border border-zinc-200 hover:bg-zinc-50 transition-colors">
+                <a href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-vaca-1b7b12189/" target="_blank" rel="noopener" className="p-3 rounded-xl border border-zinc-200 hover:bg-zinc-50 transition-colors">
                   <Linkedin className="w-5 h-5 text-zinc-600" />
                 </a>
-                <a href="https://github.com" className="p-3 rounded-xl border border-zinc-200 hover:bg-zinc-50 transition-colors">
+                <a href="https://github.com/javierfernandezvaca" target="_blank" rel="noopener" className="p-3 rounded-xl border border-zinc-200 hover:bg-zinc-50 transition-colors">
                   <Github className="w-5 h-5 text-zinc-600" />
                 </a>
               </div>
@@ -289,15 +289,15 @@ export default function App() {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
             <div className="aspect-square rounded-[2rem] overflow-hidden bg-zinc-100 relative z-10 border-8 border-white shadow-2xl">
-              <img 
-                src="https://media.licdn.com/dms/image/C4D03AQHWrrkI_rFJKQ/profile-displayphoto-shrink_200_200/0/1561484471475?e=2147483647&v=beta&t=5xPkDrU5hqzyN7hM-9rRHrg41KnaK9PD-0CS2Fbcqf4" 
+              <img
+                src="/Curriculum-Vitae/profile-image.jpg"
                 alt="Javier Fernández Vaca"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
@@ -305,7 +305,7 @@ export default function App() {
             {/* Decorative elements */}
             <div className="absolute -top-6 -right-6 w-32 h-32 bg-emerald-100 rounded-full blur-3xl opacity-50"></div>
             <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-blue-100 rounded-full blur-3xl opacity-50"></div>
-            
+
             <div className="absolute bottom-8 -right-4 z-20 glass-card p-4 rounded-2xl shadow-xl max-w-[200px]">
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-8 h-8 rounded-full bg-emerald-500 flex items-center justify-center text-white">
@@ -324,12 +324,12 @@ export default function App() {
       {/* Experience Section */}
       <section id="experience" className="section-padding bg-zinc-50/50">
         <div className="max-w-7xl mx-auto">
-          <SectionHeader 
-            title="Trayectoria Profesional" 
-            subtitle="Experiencia" 
-            icon={Briefcase} 
+          <SectionHeader
+            title="Trayectoria Profesional"
+            subtitle="Experiencia"
+            icon={Briefcase}
           />
-          
+
           <div className="space-y-8">
             <div className="grid md:grid-cols-[200px_1fr] gap-8 relative">
               <div className="text-zinc-400 font-mono text-sm pt-1">2015 — Presente</div>
@@ -373,15 +373,15 @@ export default function App() {
       {/* Skills Section */}
       <section id="skills" className="section-padding">
         <div className="max-w-7xl mx-auto">
-          <SectionHeader 
-            title="Arsenal Técnico" 
-            subtitle="Habilidades" 
-            icon={Cpu} 
+          <SectionHeader
+            title="Arsenal Técnico"
+            subtitle="Habilidades"
+            icon={Cpu}
           />
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {Object.entries(SKILLS).map(([key, group]) => (
-              <motion.div 
+              <motion.div
                 key={key}
                 whileHover={{ y: -5 }}
                 className="glass-card p-6 rounded-3xl hover:border-emerald-200 transition-all"
@@ -427,11 +427,10 @@ export default function App() {
                 <button
                   key={filter}
                   onClick={() => setActiveFilter(filter)}
-                  className={`px-4 py-2 rounded-full text-xs font-bold transition-all ${
-                    activeFilter === filter 
-                    ? 'bg-emerald-500 text-white' 
+                  className={`px-4 py-2 rounded-full text-xs font-bold transition-all ${activeFilter === filter
+                    ? 'bg-emerald-500 text-white'
                     : 'bg-white/5 text-zinc-400 hover:bg-white/10'
-                  }`}
+                    }`}
                 >
                   {filter}
                 </button>
@@ -441,7 +440,7 @@ export default function App() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project, i) => (
-              <motion.div 
+              <motion.div
                 layout
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -454,9 +453,9 @@ export default function App() {
                   </div>
                   <div className="flex gap-2">
                     {project.links?.map((link, j) => (
-                      <a 
-                        key={j} 
-                        href={link.url} 
+                      <a
+                        key={j}
+                        href={link.url}
                         target="_blank"
                         className="p-2 rounded-full bg-white/5 hover:bg-emerald-500 transition-colors"
                         title={link.label}
@@ -466,14 +465,14 @@ export default function App() {
                     ))}
                   </div>
                 </div>
-                
+
                 <h3 className="text-2xl font-bold mb-2 group-hover:text-emerald-400 transition-colors">
                   {project.title}
                 </h3>
                 <div className="text-sm text-zinc-400 font-medium mb-4">
                   {project.client}
                 </div>
-                
+
                 <p className="text-zinc-500 text-sm leading-relaxed mb-8 flex-grow">
                   {project.description}
                 </p>
@@ -499,12 +498,12 @@ export default function App() {
             extraordinario juntos.
           </h2>
           <p className="text-xl text-zinc-600 mb-12">
-            Actualmente disponible para oportunidades freelance y colaboraciones técnicas. 
+            Actualmente disponible para oportunidades freelance y colaboraciones técnicas.
             No dudes en contactarme para una consulta o simplemente para saludar.
           </p>
-          
+
           <div className="grid sm:grid-cols-2 gap-4">
-            <a 
+            <a
               href="mailto:javierfernandezvaca@gmail.com"
               className="flex items-center justify-center gap-3 p-6 rounded-3xl bg-zinc-900 text-white hover:bg-zinc-800 transition-all shadow-xl shadow-zinc-200"
             >
@@ -513,7 +512,7 @@ export default function App() {
                 <div className="font-semibold">javierfernandezvaca@gmail.com</div>
               </div>
             </a>
-            <a 
+            <a
               href="tel:+5356073219"
               className="flex items-center justify-center gap-3 p-6 rounded-3xl border border-zinc-200 hover:bg-zinc-50 transition-all"
             >
@@ -535,15 +534,15 @@ export default function App() {
             </div>
             <span className="font-bold text-sm tracking-tight text-zinc-900">Javier Fernández Vaca</span>
           </div>
-          
+
           <div className="text-sm text-zinc-400 italic">
             © 2026 Todos los derechos reservados.
           </div>
 
           <div className="flex items-center gap-6">
-            <a href="#" className="text-zinc-400 hover:text-zinc-900 transition-colors"><Github className="w-5 h-5" /></a>
-            <a href="#" className="text-zinc-400 hover:text-zinc-900 transition-colors"><Linkedin className="w-5 h-5" /></a>
-            <a href="#" className="text-zinc-400 hover:text-zinc-900 transition-colors"><Mail className="w-5 h-5" /></a>
+            <a href="https://github.com/javierfernandezvaca" target="_blank" rel="noopener" className="text-zinc-400 hover:text-zinc-900 transition-colors"><Github className="w-5 h-5" /></a>
+            <a href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-vaca-1b7b12189/" target="_blank" rel="noopener" className="text-zinc-400 hover:text-zinc-900 transition-colors"><Linkedin className="w-5 h-5" /></a>
+            <a href="mailto:javierfernandezvaca@gmail.com" className="text-zinc-400 hover:text-zinc-900 transition-colors"><Mail className="w-5 h-5" /></a>
           </div>
         </div>
       </footer>
