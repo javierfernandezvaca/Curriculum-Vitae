@@ -722,7 +722,7 @@ export default function App() {
           </div>
 
           <div className="text-sm text-zinc-400">
-            © 2026 Todos los derechos reservados.
+            Última actualización: 21 de febrero de 2026
           </div>
 
           <div className="flex items-center gap-6">
