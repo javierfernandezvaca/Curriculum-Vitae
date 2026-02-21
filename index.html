@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Javier Fernández Vaca — Senior Software Engineer</title>
+    <meta name="description"
+        content="Portfolio de Javier Fernández Vaca, Ingeniero de Software Senior con más de 13 años de experiencia en Flutter, Angular, Go y más." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:wght@600;700&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "ink": "#1e293b",
+                        "ink-soft": "#475569",
+                        "ink-dim": "#94a3b8",
+                        "surface": "#faf9f7",
+                        "card": "#ffffff",
+                        "indigo": "#4f46e5",
+                        "indigo-soft": "#eef2ff",
+                        "gold": "#d97706",
+                        "gold-soft": "#fffbeb",
+                        "border": "#e2e8f0",
+                    },
+                    fontFamily: {
+                        "sans": ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+                        "serif": ["Lora", "Georgia", "serif"],
+                    },
+                    boxShadow: {
+                        "card": "0 1px 3px 0 rgb(0 0 0 / 0.06), 0 1px 2px -1px rgb(0 0 0 / 0.04)",
+                        "focus": "0 0 0 3px rgb(79 70 229 / 0.15)",
+                    }
+                },
+            },
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+    .text-balance { text-wrap: balance; }
+    .section-fade { opacity: 0; transform: translateY(16px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .section-fade.visible { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+
+<body class="bg-surface text-ink font-sans antialiased selection:bg-indigo selection:text-white">
+
+    <!-- Top nav bar (minimal) -->
+    <nav class="sticky top-0 z-50 bg-surface/90 backdrop-blur-sm border-b border-border">
+        <div class="max-w-3xl mx-auto px-6 h-14 flex items-center justify-between">
+            <span class="font-serif font-semibold text-lg text-ink">JFV</span>
+            <div class="flex items-center gap-6 text-sm text-ink-soft">
+                <a href="#experiencia" class="hover:text-indigo transition-colors hidden sm:block">Experiencia</a>
+                <a href="#habilidades" class="hover:text-indigo transition-colors hidden sm:block">Habilidades</a>
+                <a href="#proyectos" class="hover:text-indigo transition-colors hidden sm:block">Proyectos</a>
+                <a href="mailto:javierfernandezvaca@gmail.com"
+                    class="flex items-center gap-1.5 text-indigo font-medium hover:text-ink transition-colors">
+                    <span class="material-symbols-outlined text-base"
+                        style="font-variation-settings:'FILL' 1">mail</span>
+                    <span class="hidden sm:inline">Contactar</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-3xl mx-auto px-6 py-14 md:py-20">
+
+        <!-- ═══ HEADER ═══ -->
+        <header class="flex flex-col sm:flex-row items-center sm:items-start gap-8 mb-20 section-fade">
+            <div class="shrink-0">
+                <div class="w-28 h-28 sm:w-36 sm:h-36 rounded-2xl overflow-hidden ring-4 ring-white shadow-card">
+                    <img alt="Javier Fernández Vaca"
+                        class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 hover:scale-100"
+                        src="https://media.licdn.com/dms/image/C4D03AQHWrrkI_rFJKQ/profile-displayphoto-shrink_200_200/0/1561484471475?e=2147483647&v=beta&t=5xPkDrU5hqzyN7hM-9rRHrg41KnaK9PD-0CS2Fbcqf4" />
+                </div>
+            </div>
+            <div class="flex-1 text-center sm:text-left">
+                <p class="text-xs font-semibold tracking-[0.2em] uppercase text-indigo mb-2">Disponible para proyectos
+                </p>
+                <h1 class="font-serif font-bold text-4xl sm:text-5xl mb-2 text-ink leading-tight">Javier Fernández Vaca
+                </h1>
+                <p class="text-lg text-ink-soft font-light mb-5">Senior Software Engineer &amp; Profesor · 13+ años de
+                    experiencia</p>
+                <div class="flex flex-wrap justify-center sm:justify-start gap-x-5 gap-y-2 text-sm text-ink-soft">
+                    <a class="hover:text-indigo transition-colors flex items-center gap-1.5"
+                        href="mailto:javierfernandezvaca@gmail.com">
+                        <span class="material-symbols-outlined text-base"
+                            style="font-variation-settings:'FILL' 1">mail</span>
+                        javierfernandezvaca@gmail.com
+                    </a>
+                    <a class="hover:text-indigo transition-colors flex items-center gap-1.5"
+                        href="https://www.linkedin.com/in/javier-fernandez-vaca/" target="_blank" rel="noopener">
+                        <span class="material-symbols-outlined text-base"
+                            style="font-variation-settings:'FILL' 1">link</span>
+                        LinkedIn
+                    </a>
+                    <span class="flex items-center gap-1.5">
+                        <span class="material-symbols-outlined text-base"
+                            style="font-variation-settings:'FILL' 1">location_on</span>
+                        Guantánamo, Cuba
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- ═══ ABOUT ═══ -->
+        <section class="mb-20 section-fade">
+            <p class="text-2xl sm:text-3xl font-light leading-relaxed text-ink/85 text-balance">
+                Especializado en el desarrollo de <strong class="font-semibold text-ink">aplicaciones móviles y
+                    web</strong> para clientes en México, USA, España, Ecuador y el Caribe. Arquitecto de soluciones
+                críticas para gobiernos, sindicatos y startups.
+            </p>
+        </section>
+
+        <!-- ═══ EXPERIENCIA ═══ -->
+        <section id="experiencia" class="mb-20 section-fade">
+            <h2 class="font-serif font-bold text-2xl mb-10 pb-3 border-b border-border flex items-center gap-3">
+                <span class="w-1.5 h-6 rounded-full bg-indigo inline-block"></span>
+                Experiencia Profesional
+            </h2>
+            <div class="space-y-12">
+
+                <!-- Freelancer -->
+                <div class="md:grid md:grid-cols-[160px_1fr] md:gap-10">
+                    <div class="mb-2 md:mb-0 md:text-right pt-0.5">
+                        <span class="text-xs font-bold tracking-widest uppercase text-ink-dim">Sep 2015 —
+                            Presente</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg text-ink">Ingeniero de Software Senior</h3>
+                        <p class="text-indigo text-sm font-medium mb-3">Freelancer · Internacional (Remoto)</p>
+                        <p class="text-ink-soft leading-relaxed mb-3 text-sm">
+                            Especializado en el desarrollo de aplicaciones profesionales de propósito general para
+                            clientes en Cuba, México, USA, España, Ecuador y el Caribe.
+                        </p>
+                        <ul class="space-y-1 text-sm text-ink-soft list-disc list-outside ml-4">
+                            <li>+19 proyectos entregados en Flutter, Angular, Ionic, Go y más.</li>
+                            <li>Trabajo con startups, empresas multinacionales y organismos gubernamentales.</li>
+                            <li>Liderazgo técnico, arquitectura y entrega end-to-end.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Profesor -->
+                <div class="md:grid md:grid-cols-[160px_1fr] md:gap-10">
+                    <div class="mb-2 md:mb-0 md:text-right pt-0.5">
+                        <span class="text-xs font-bold tracking-widest uppercase text-ink-dim">Sep 2015 —
+                            Presente</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg text-ink">Profesor</h3>
+                        <p class="text-indigo text-sm font-medium mb-3">Universidad de Guantánamo · Cuba</p>
+                        <p class="text-ink-soft leading-relaxed text-sm">
+                            Facultad de Ingeniería Informática. Formación de nuevos profesionales en ingeniería
+                            informática, desarrollo web y móvil.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ═══ HABILIDADES ═══ -->
+        <section id="habilidades" class="mb-20 section-fade">
+            <h2 class="font-serif font-bold text-2xl mb-10 pb-3 border-b border-border flex items-center gap-3">
+                <span class="w-1.5 h-6 rounded-full bg-indigo inline-block"></span>
+                Habilidades Técnicas
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-widest text-ink-dim mb-3">Mobile</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">Flutter · Experto</span>
+                        <span class="skill-tag">Ionic · Experto</span>
+                        <span class="skill-tag">Kotlin Multiplatform</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-widest text-ink-dim mb-3">Frontend</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">Angular · Experto</span>
+                        <span class="skill-tag">HTML / CSS / JS · Experto</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-widest text-ink-dim mb-3">Backend</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">Go · Avanzado</span>
+                        <span class="skill-tag">PHP / Laravel</span>
+                        <span class="skill-tag">Java / Spring Boot</span>
+                        <span class="skill-tag">Node.js / NestJS</span>
+                        <span class="skill-tag">.NET Core</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-widest text-ink-dim mb-3">Desktop</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">C / C++ · Experto</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ═══ PROYECTOS ═══ -->
+        <section id="proyectos" class="mb-20 section-fade">
+            <h2 class="font-serif font-bold text-2xl mb-2 pb-3 border-b border-border flex items-center gap-3">
+                <span class="w-1.5 h-6 rounded-full bg-indigo inline-block"></span>
+                Trabajos Realizados
+            </h2>
+            <p class="text-sm text-ink-dim mb-10">19 proyectos · Empresas y Clientes Privados</p>
+
+            <div class="space-y-10">
+
+                <!-- 1. Serena Care -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Serena Care</h3>
+                            <p class="project-client">idooGROUP Technologies Inc. · México</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">May 2025 – Ene 2026</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Desarrollé la aplicación móvil multiplataforma para Serena Care, una red de residencias
+                        especializadas en atención integral para adultos mayores en Baja California. La app centraliza
+                        servicios asistenciales como atención médica, programas de bienestar y respuesta a emergencias
+                        24/7. Implementé módulos para seguimiento clínico y acceso a información de centros certificados
+                        (<strong>ISO 9001:2015</strong>, Registro <strong>REPSSABI</strong>), garantizando estándares de
+                        calidad internacional.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://serenacare.net/en/home-eng/" target="_blank" rel="noopener"
+                            class="link-primary">Web</a>
+                    </div>
+                </article>
+
+                <!-- 2. INDEX -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">INDEX</h3>
+                            <p class="project-client">idooGROUP Technologies Inc. · México</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Ago 2024 – Ene 2026</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Desarrollé la aplicación móvil multiplataforma que conecta a trabajadores con los beneficios de
+                        su sindicato, permitiendo gestionar trámites, responder cuestionarios de bienestar (incluyendo
+                        NOM‑035), inscribirse a eventos y acceder a cupones desde un solo lugar. Integré notificaciones
+                        en tiempo real, autenticación segura y accesos directos a servicios empresariales.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://index.idooproject.com/" target="_blank" rel="noopener"
+                            class="link-primary">Web</a>
+                    </div>
+                </article>
+
+                <!-- 3. Das Cortez -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Das Cortez</h3>
+                            <p class="project-client">idooGROUP Technologies Inc. · México</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Abr 2025 – Jun 2025</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Participé en el desarrollo de la aplicación móvil multiplataforma para Das Cortez, una marca
+                        especializada en cafés finos y productos premium. Implementé módulos clave para mejorar la
+                        experiencia de compra, navegación de catálogo, gestión de productos y flujo de pedidos,
+                        optimizando la operación del cliente y facilitando la venta de café, gift cards y artículos
+                        relacionados.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://dascortez.com/" target="_blank" rel="noopener" class="link-primary">Web</a>
+                    </div>
+                </article>
+
+                <!-- 4. eVisas -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">eVisas</h3>
+                            <p class="project-client">Grupo Business IT · Cancillería del Gobierno de Ecuador</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Angular</span>
+                            <span class="project-date">Jun 2024</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Desarrollé módulos clave para e‑Visas, el sistema oficial del Gobierno de Ecuador para la
+                        gestión electrónica de visas, disponible 24/7 y 100% en línea. Contribuí tanto a la interfaz
+                        pública para solicitantes como al panel administrativo interno, implementando flujos críticos
+                        para la solicitud, cancelación y transferencia de visas, así como validaciones, formularios
+                        dinámicos y mejoras de usabilidad orientadas a reducir errores y agilizar trámites.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://serviciosdigitales.cancilleria.gob.ec/authentication" target="_blank"
+                            rel="noopener" class="link-primary">Web</a>
+                    </div>
+                </article>
+
+                <!-- 5. Swin Drinks -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Swin Drinks</h3>
+                            <p class="project-client">Swin Soft, LLC · Estados Unidos</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Dic 2023 – Jun 2024</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Desarrollé la aplicación móvil multiplataforma para Swin Drinks, una plataforma diseñada para
+                        optimizar la operación de bares, clubes y eventos en la industria de la vida nocturna.
+                        Implementé funcionalidades clave como pedidos in‑app para incrementar ingresos, "Flash Passes"
+                        para acceso prioritario y un sistema de gestión de eventos en tiempo real.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://www.swindrinks.com/" target="_blank" rel="noopener"
+                            class="link-primary">Web</a>
+                    </div>
+                </article>
+
+                <!-- 6. Street Rent a Car -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Street Rent a Car</h3>
+                            <p class="project-client">idooGROUP Technologies Inc. · México</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Nov 2023 – Jun 2024</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Desarrollé la aplicación móvil multiplataforma para Street Rent a Car, una empresa mexicana de
+                        alquiler de vehículos con presencia en múltiples sucursales. Implementé un sistema de reservas
+                        intuitivo conectado a una flota diversa, gestión completa del ciclo de alquiler, un programa de
+                        recompensas y la integración de descuentos exclusivos.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://streetrentacar.com.mx/" target="_blank" rel="noopener"
+                            class="link-primary">Web</a>
+                        <a href="https://apps.apple.com/mx/app/street-rent-a-car/id6478752296" target="_blank"
+                            rel="noopener" class="link-secondary">App Store</a>
+                        <a href="https://play.google.com/store/apps/details?id=com.idoogroup.srac" target="_blank"
+                            rel="noopener" class="link-secondary">Play Store</a>
+                    </div>
+                </article>
+
+                <!-- 7. Stream Dealer -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Stream Dealer</h3>
+                            <p class="project-client">idooGROUP Technologies Inc. · México</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Jun 2023 – Nov 2023</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Desarrollé la aplicación móvil multiplataforma Stream Dealer, un marketplace especializado en
+                        cartas coleccionables y productos relacionados. Implementé publicación y gestión de artículos,
+                        compra y venta segura, búsqueda avanzada por colección y rareza, sistema de favoritos,
+                        inventario personal y herramientas para conectar compradores y vendedores.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://play.google.com/store/apps/details?id=app.streamdealer.com" target="_blank"
+                            rel="noopener" class="link-primary">Play Store</a>
+                    </div>
+                </article>
+
+                <!-- 8. Good Crown v2 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Good Crown v2</h3>
+                            <p class="project-client">Privado · Estados Unidos</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">May 2023 – Sep 2023</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé la aplicación móvil multiplataforma para una red social exclusiva, mejorando
+                        significativamente la experiencia del usuario. <em class="text-ink-dim">(Proyecto bajo acuerdo
+                            de confidencialidad).</em>
+                    </p>
+                </article>
+
+                <!-- 9. SINI / AlertaDO (con recomendación) -->
+                <article class="project-card border-amber-200 bg-gold-soft">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">SINI</h3>
+                            <p class="project-client">Deneb Latinoamericana, Inc. (USA) · Defensa Civil del Gobierno
+                                Dominicano</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Feb 2023 – Jul 2023</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé la aplicación móvil oficial "AlertaDO" para la Defensa Civil y el Sistema Integrado
+                        Nacional de Información (SINI). Esta herramienta es clave para la gestión de riesgos en
+                        República Dominicana y el Caribe, permitiendo a los ciudadanos reportar incidencias de forma
+                        ágil y segura. Desarrollé el sistema de alertas tempranas para notificar amenazas naturales y
+                        antrópicas en tiempo real.
+                    </p>
+                    <div class="recommendation-banner">
+                        <span class="material-symbols-outlined text-xl"
+                            style="font-variation-settings:'FILL' 1">workspace_premium</span>
+                        <span>Carta de Recomendación · Arturo Aranguren, Presidente de Deneb Latinoamericana,
+                            Inc.</span>
+                        <a href="deneb_recommendation_letter.pdf" target="_blank" rel="noopener"
+                            class="ml-auto font-semibold underline underline-offset-2 hover:text-ink transition-colors whitespace-nowrap">Ver
+                            PDF →</a>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://play.google.com/store/apps/details?id=do.sini.alertado" target="_blank"
+                            rel="noopener" class="link-primary">Play Store</a>
+                    </div>
+                </article>
+
+                <!-- 10. CUSAF (con recomendación) -->
+                <article class="project-card border-amber-200 bg-gold-soft">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">CUSAF</h3>
+                            <p class="project-client">Deneb Latinoamericana, Inc. (USA)</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Ene 2023 – Jul 2023</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé una aplicación móvil multiplataforma de gestión agrícola empresarial para el proyecto
+                        AgroFor. Desarrollé módulos para la optimización de procesos clave, el seguimiento de la
+                        producción en tiempo real y el análisis de datos, mejorando la toma de decisiones estratégicas
+                        para las operaciones agrícolas del cliente.
+                    </p>
+                    <div class="recommendation-banner">
+                        <span class="material-symbols-outlined text-xl"
+                            style="font-variation-settings:'FILL' 1">workspace_premium</span>
+                        <span>Carta de Recomendación · Arturo Aranguren, Presidente de Deneb Latinoamericana,
+                            Inc.</span>
+                        <a href="deneb_recommendation_letter.pdf" target="_blank" rel="noopener"
+                            class="ml-auto font-semibold underline underline-offset-2 hover:text-ink transition-colors whitespace-nowrap">Ver
+                            PDF →</a>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.agrofor.info/" target="_blank" rel="noopener" class="link-primary">Web</a>
+                    </div>
+                </article>
+
+                <!-- 11. Ganaclima (con recomendación) -->
+                <article class="project-card border-amber-200 bg-gold-soft">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Ganaclima</h3>
+                            <p class="project-client">Deneb Latinoamericana, Inc. (USA)</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Oct 2022 – Jul 2023</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Desarrollé la app móvil para GanaclimaRD, iniciativa nacional asistida por la FAO, que ayuda a
+                        los agricultores a adoptar prácticas climáticamente inteligentes para reducir emisiones y
+                        aumentar la productividad.
+                    </p>
+                    <div class="recommendation-banner">
+                        <span class="material-symbols-outlined text-xl"
+                            style="font-variation-settings:'FILL' 1">workspace_premium</span>
+                        <span>Carta de Recomendación · Arturo Aranguren, Presidente de Deneb Latinoamericana,
+                            Inc.</span>
+                        <a href="deneb_recommendation_letter.pdf" target="_blank" rel="noopener"
+                            class="ml-auto font-semibold underline underline-offset-2 hover:text-ink transition-colors whitespace-nowrap">Ver
+                            PDF →</a>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ganaderiayclimard.do/ganaclima/" target="_blank" rel="noopener"
+                            class="link-primary">Web</a>
+                    </div>
+                </article>
+
+                <!-- 12. SUPI Plus -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">SUPI Plus</h3>
+                            <p class="project-client">CademSmart · Chile</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Feb 2022 – Dic 2022</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé la app móvil de auditoría para la firma de inteligencia de mercado CademSmart. La
+                        herramienta digitaliza el levantamiento de datos en el punto de venta, permitiendo a los
+                        auditores de campo registrar información crítica como disponibilidad de stock, precios y
+                        cumplimiento de promociones en tiempo real para los clientes B2B de la compañía.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://app.cademsmart.com/" target="_blank" rel="noopener"
+                            class="link-primary">App</a>
+                        <a href="https://apkpure.net/de/supi-mobile/com.cademsmart.supimobile" target="_blank"
+                            rel="noopener" class="link-secondary">APK</a>
+                    </div>
+                </article>
+
+                <!-- 13. Xpertopolis -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Xpertopolis</h3>
+                            <p class="project-client">Peoplewalking · España</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge indigo-tag">Ionic · Angular</span>
+                            <span class="project-date">Jul 2022 – Dic 2022</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé el programa de certificación profesional para Xpertopolis, una innovadora plataforma
+                        de contratación que utiliza IA y Blockchain para eliminar sesgos. Mi desarrollo fue clave para
+                        certificar objetivamente las habilidades técnicas de los desarrolladores en Ionic y Angular.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://xpertopolis.com/" target="_blank" rel="noopener" class="link-primary">Web</a>
+                        <a href="https://www.peoplewalking.com/" target="_blank" rel="noopener"
+                            class="link-secondary">Peoplewalking</a>
+                    </div>
+                </article>
+
+                <!-- 14. Business Series Tool -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Business Series Tool</h3>
+                            <p class="project-client">Peoplewalking · España</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge indigo-tag">Ionic · Angular</span>
+                            <span class="project-date">Jun 2021 – Dic 2022</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé la aplicación web para la gestión, actualización y soporte del proyecto Business
+                        Series Tools, mejorando la eficiencia operativa del equipo.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://www.peoplewalking.com/" target="_blank" rel="noopener"
+                            class="link-primary">Peoplewalking</a>
+                    </div>
+                </article>
+
+                <!-- 15. Good Crown v1 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">Good Crown v1</h3>
+                            <p class="project-client">idooGROUP Technologies Inc. · México</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="project-date">Nov 2020 – May 2021</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé la aplicación móvil multiplataforma innovadora para una red social exclusiva con
+                        funcionalidades comerciales integradas. <em class="text-ink-dim">(Proyecto bajo acuerdo de
+                            confidencialidad).</em>
+                    </p>
+                </article>
+
+                <!-- 16. CIMEMP -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">CIMEMP</h3>
+                            <p class="project-client">idooGROUP Technologies Inc. · México</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge indigo-tag">Ionic · Angular</span>
+                            <span class="project-date">Jul 2020 – Sep 2020</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé CIMEMP, una aplicación móvil crucial para la gestión de la salud en empresas
+                        estatales mexicanas durante la pandemia. Desarrollé sus funciones clave, incluyendo el registro
+                        de análisis clínicos, seguimiento de síntomas y generación de reportes, para facilitar una
+                        detección temprana y una gestión eficiente de los casos de COVID-19.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://www.idoogroup.com/en/portfolio/project-cimemp/" target="_blank" rel="noopener"
+                            class="link-primary">Portfolio</a>
+                    </div>
+                </article>
+
+                <!-- 17. COVID 19 Test -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">COVID 19 Test</h3>
+                            <p class="project-client">idooGROUP Technologies Inc. · México</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge indigo-tag">Ionic · Angular</span>
+                            <span class="project-date">Abr 2020 – Jun 2020</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé la aplicación móvil multiplataforma especializada en la detección y seguimiento de
+                        casos COVID-19, optimizando la gestión sanitaria para el sector privado.
+                    </p>
+                </article>
+
+                <!-- 18. GETRIX -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">GETRIX</h3>
+                            <p class="project-client">Instapack · España</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge" style="background:#fef3c7;color:#78350f;">HTML · JS · jQuery ·
+                                Bootstrap</span>
+                            <span class="project-date">Ene 2018 – Jul 2018</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Implementé GETRIX, la aplicación web de cliente para la empresa de mensajería instantánea
+                        Instapack. Mi desarrollo fue clave para su sistema de seguimiento, permitiendo a los usuarios
+                        visualizar el repartidor en un mapa en tiempo real, recibir notificaciones detalladas del
+                        progreso y contactar directamente al mensajero, mejorando radicalmente la transparencia en la
+                        logística.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://www.instapack.es/" target="_blank" rel="noopener" class="link-primary">Web</a>
+                    </div>
+                </article>
+
+                <!-- 19. FULLSTACK -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <div>
+                            <h3 class="project-title">FULLSTACK</h3>
+                            <p class="project-client">Universidad de Guantánamo · Cuba</p>
+                        </div>
+                        <div class="project-meta-right">
+                            <span class="tech-badge" style="background:#f0fdf4;color:#166534;">Todas las
+                                Habilidades</span>
+                            <span class="project-date">Sep 2011 – Presente</span>
+                        </div>
+                    </div>
+                    <p class="project-desc">
+                        Lidero el desarrollo de soluciones tecnológicas innovadoras y aplicaciones de propósito general
+                        para empresas nacionales y universidades cubanas.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ═══ EDUCACIÓN ═══ -->
+        <section id="educacion" class="mb-20 section-fade">
+            <h2 class="font-serif font-bold text-2xl mb-10 pb-3 border-b border-border flex items-center gap-3">
+                <span class="w-1.5 h-6 rounded-full bg-indigo inline-block"></span>
+                Educación
+            </h2>
+            <div class="space-y-7">
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
+                    <div>
+                        <h3 class="font-semibold text-lg text-ink">Licenciatura en Ciencias de la Computación</h3>
+                        <p class="text-ink-soft text-sm">Universidad de Oriente · Cuba</p>
+                    </div>
+                    <span class="text-sm text-ink-dim tabular-nums shrink-0">2006 – 2011</span>
+                </div>
+                <div class="w-full h-px bg-border"></div>
+                <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
+                    <div>
+                        <h3 class="font-semibold text-lg text-ink">Profesor Universitario</h3>
+                        <p class="text-ink-soft text-sm">Universidad de Guantánamo · Cuba</p>
+                        <p class="text-ink-dim text-xs mt-0.5">Profesor Instructor (2015) → Profesor Asistente (2020)
+                        </p>
+                    </div>
+                    <span class="text-sm text-ink-dim tabular-nums shrink-0">2015 – Presente</span>
+                </div>
+            </div>
+
+            <!-- Formación Universitaria -->
+            <div class="mt-10">
+                <h3 class="text-xs font-bold uppercase tracking-widest text-ink-dim mb-4">Formación Universitaria
+                    (Universidad de Oriente)</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="skill-tag">Programación C/C++</span>
+                    <span class="skill-tag">Estructura de Datos</span>
+                    <span class="skill-tag">Diseño y Análisis de Algoritmos</span>
+                    <span class="skill-tag">Bases de Datos</span>
+                    <span class="skill-tag">Redes de Computadoras</span>
+                    <span class="skill-tag">Sistemas Operativos</span>
+                    <span class="skill-tag">Ingeniería de Software</span>
+                    <span class="skill-tag">Inteligencia Artificial</span>
+                    <span class="skill-tag">Reconocimiento de Patrones</span>
+                    <span class="skill-tag">Técnicas de Compilación</span>
+                    <span class="skill-tag">Lenguajes de Programación</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ FOOTER ═══ -->
+        <footer class="pt-10 mt-10 border-t border-border text-center text-ink-dim text-sm pb-12 space-y-1">
+            <p class="font-semibold text-ink">Javier Fernández Vaca</p>
+            <p>
+                <a href="mailto:javierfernandezvaca@gmail.com"
+                    class="hover:text-indigo transition-colors">javierfernandezvaca@gmail.com</a>
+            </p>
+            <p>© 2026 · Última actualización: 17 de febrero de 2026</p>
+        </footer>
+
+    </div><!-- /max-w-3xl -->
+
+    <!-- ═══ Tailwind component classes via @apply ═══ -->
+    <style>
+        .skill-tag {
+            @apply px-3 py-1 border border-border rounded-md text-sm text-ink-soft hover:border-indigo hover:text-indigo transition-colors cursor-default bg-card;
+        }
+
+        .project-card {
+            @apply bg-card border border-border rounded-xl p-6 shadow-card;
+        }
+
+        .project-header {
+            @apply flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-4;
+        }
+
+        .project-title {
+            @apply font-semibold text-xl text-ink leading-tight;
+        }
+
+        .project-client {
+            @apply text-indigo text-sm font-medium mt-0.5;
+        }
+
+        .project-meta-right {
+            @apply flex flex-col items-start sm:items-end gap-1 shrink-0;
+        }
+
+        .tech-badge {
+            @apply text-xs font-semibold px-2.5 py-1 rounded-md bg-indigo-soft text-indigo;
+        }
+
+        .project-date {
+            @apply text-xs text-ink-dim font-medium whitespace-nowrap;
+        }
+
+        .project-desc {
+            @apply text-sm text-ink-soft leading-relaxed mb-4;
+        }
+
+        .project-links {
+            @apply flex flex-wrap gap-4 text-sm font-medium;
+        }
+
+        .link-primary {
+            @apply text-indigo hover:text-ink transition-colors border-b border-transparent hover:border-ink pb-0.5;
+        }
+
+        .link-secondary {
+            @apply text-ink-soft hover:text-indigo transition-colors border-b border-transparent hover:border-indigo pb-0.5;
+        }
+
+        .recommendation-banner {
+            @apply flex flex-wrap items-center gap-2 text-xs font-medium text-gold bg-amber-50 border border-amber-200 rounded-lg px-4 py-3 mb-4;
+        }
+    </style>
+
+    <script>
+        // Scroll reveal
+        const observer = new IntersectionObserver(
+            (entries) => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+            { threshold: 0.05 }
+        );
+        document.querySelectorAll('.section-fade').forEach(el => observer.observe(el));
+    </script>
+
+</body>
+
+</html>
