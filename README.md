@@ -2,7 +2,7 @@
 
 Portafolio profesional de trabajo completo y moderno donde puedes explorar a fondo mi trayectoria, habilidades, certificaciones y todo mi historial de proyectos en detalle.
 
-[![PORTAFOLIO](https://img.shields.io/badge/PORTAFOLIO-18181B?style=for-the-badge&logo=github&logoColor=white&labelColor=27272A&color=18181B)](https://javierfernandezvaca.github.io/Curriculum-Vitae/)
+[![PORTAFOLIO](https://img.shields.io/badge/PORTAFOLIO-18181B?style=for-the-badge&logo=github&logoColor=white&labelColor=27272A&color=18181B)](https://javierfernandezvaca.dpdns.org)
 
 ---
 

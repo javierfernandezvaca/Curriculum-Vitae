@@ -8,7 +8,7 @@ export default defineConfig({
   // Base path for GitHub Pages:
   // https://javierfernandezvaca.github.io/Curriculum-Vitae/
   // 
-  base: '/Curriculum-Vitae/',
+  base: '/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

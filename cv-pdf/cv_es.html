@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Javier Fernández Vaca - Ingeniero de Software CV</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0.55in 0.65in;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #1f2937;
+    font-size: 9.5pt;
+    line-height: 1.45;
+    background: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  a { color: #059669; text-decoration: none; }
+  .header { text-align: center; margin-bottom: 14pt; padding-bottom: 10pt; border-bottom: 2.5pt solid #059669; }
+  .header h1 { font-size: 26pt; font-weight: 800; color: #111827; letter-spacing: -0.5pt; margin-bottom: 2pt; }
+  .header .title { font-size: 12pt; font-weight: 600; color: #059669; margin-bottom: 8pt; }
+  .header .contact { font-size: 8.5pt; color: #4b5563; display: flex; flex-wrap: wrap; justify-content: center; gap: 4pt 14pt; }
+  .header .contact span { white-space: nowrap; }
+  .section { margin-bottom: 12pt; }
+  .section-title {
+    font-size: 11pt; font-weight: 700; color: #059669;
+    text-transform: uppercase; letter-spacing: 1.5pt;
+    border-bottom: 1pt solid #d1d5db;
+    padding-bottom: 3pt; margin-bottom: 7pt;
+  }
+  .summary { font-size: 9.5pt; color: #374151; line-height: 1.5; }
+  .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3pt 20pt; }
+  .skill-row { display: flex; gap: 6pt; }
+  .skill-label { font-weight: 700; color: #374151; min-width: 70pt; font-size: 9pt; }
+  .skill-items { color: #4b5563; font-size: 9pt; }
+  .exp-entry { margin-bottom: 10pt; }
+  .exp-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .exp-title { font-size: 10.5pt; font-weight: 700; color: #111827; }
+  .exp-period { font-size: 8.5pt; color: #059669; font-weight: 600; white-space: nowrap; }
+  .exp-subtitle { font-size: 9pt; color: #6b7280; font-style: italic; margin-bottom: 3pt; }
+  .exp-desc { font-size: 9pt; color: #4b5563; }
+  .exp-desc li { margin-left: 12pt; margin-bottom: 1pt; }
+  .project { margin-bottom: 7pt; page-break-inside: avoid; }
+  .proj-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1pt; }
+  .proj-name { font-weight: 700; font-size: 9.5pt; color: #111827; }
+  .proj-period { font-size: 8pt; color: #059669; font-weight: 600; }
+  .proj-meta { font-size: 8.5pt; color: #6b7280; margin-bottom: 2pt; }
+  .proj-meta .tech { font-weight: 600; color: #059669; }
+  .proj-desc { font-size: 8.5pt; color: #4b5563; line-height: 1.4; }
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .edu-degree { font-size: 10.5pt; font-weight: 700; color: #111827; }
+  .edu-school { font-size: 9pt; color: #6b7280; font-style: italic; }
+  .edu-courses { font-size: 8.5pt; color: #4b5563; margin-top: 3pt; }
+  .additional-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2pt 20pt; font-size: 9pt; }
+  .add-label { font-weight: 700; color: #374151; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>JAVIER FERNÁNDEZ VACA</h1>
+  <div class="title">Ingeniero de Software Full-Stack</div>
+  <div class="contact">
+    <span>✉ javierfernandezvaca@gmail.com</span>
+    <span>✆ +53 56073219</span>
+    <span>⌂ Guantánamo, Cuba</span>
+    <span>🔗 <a href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-vaca-1b7b12189/">LinkedIn</a></span>
+    <span>⌨ <a href="https://github.com/javierfernandezvaca">GitHub</a></span>
+    <span>🌐 <a href="https://javierfernandezvaca.github.io/Curriculum-Vitae/">Portafolio</a></span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Perfil Profesional</div>
+  <div class="summary">
+    Ingeniero de Software full-stack con <strong>más de 13 años de experiencia</strong> diseñando y desarrollando aplicaciones móviles y web de alto rendimiento para clientes internacionales en <strong>EE. UU., México, Ecuador, España, Chile y Cuba</strong>. Experto en <strong>Flutter</strong> y <strong>Angular</strong> con un historial comprobado de entrega de <strong>más de 19 proyectos de grado productivo</strong> en sistemas gubernamentales, salud, fintech, e-commerce y plataformas empresariales. Profesor universitario con sólidas habilidades de comunicación y mentoría.
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Habilidades Técnicas</div>
+  <div class="skills-grid">
+    <div class="skill-row">
+      <span class="skill-label">Móvil:</span>
+      <span class="skill-items"><strong>Flutter (Experto)</strong>, Ionic, Kotlin Multiplatform</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-label">Frontend:</span>
+      <span class="skill-items"><strong>Angular (Experto)</strong>, React, Vue, HTML/CSS/JS</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-label">Backend:</span>
+      <span class="skill-items">Go, Laravel, Spring Boot, NestJS, .NET Core, Node.js</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-label">Escritorio:</span>
+      <span class="skill-items">Flutter Desktop, C/C++</span>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Experiencia Profesional</div>
+  <div class="exp-entry">
+    <div class="exp-header">
+      <span class="exp-title">Ingeniero de Software Freelance</span>
+      <span class="exp-period">2011 – Presente</span>
+    </div>
+    <div class="exp-subtitle">Remoto — Clientes Internacionales</div>
+    <div class="exp-desc">
+      <ul>
+        <li>Entrega de más de 19 aplicaciones en producción para clientes en 6 países, especializado en desarrollo móvil multiplataforma (Flutter) y web (Angular).</li>
+        <li>Desarrollo de sistemas de grado gubernamental: plataforma oficial de e-Visas de Ecuador y la app nacional de Defensa Civil de República Dominicana (AlertaDO).</li>
+        <li>Soluciones empresariales para salud (Serena Care), automotriz (Street Rent a Car), entretenimiento (Swin Drinks) y agricultura (Ganaclima/FAO).</li>
+        <li>Carta de recomendación oficial de Arturo Aranguren, Presidente de Deneb Latinoamericana Inc., por excelencia en la entrega de 3 proyectos concurrentes.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="exp-entry">
+    <div class="exp-header">
+      <span class="exp-title">Profesor Universitario — Ciencias de la Computación</span>
+      <span class="exp-period">2015 – Presente</span>
+    </div>
+    <div class="exp-subtitle">Universidad de Guantánamo — Facultad de Ingeniería Informática</div>
+    <div class="exp-desc">
+      <ul>
+        <li>Promovido de Profesor Instructor (2015) a Profesor Asistente (2020).</li>
+        <li>Liderazgo en el desarrollo de soluciones tecnológicas innovadoras para empresas nacionales y universidades cubanas.</li>
+        <li>Formación y mentoría de estudiantes en ingeniería de software, desarrollo móvil y tecnologías web modernas.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Proyectos Destacados</div>
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">Serena Care — idooGROUP Technologies Inc.</span>
+      <span class="proj-period">May 2025 – Ene 2026</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · México · Salud</div>
+    <div class="proj-desc">Aplicación móvil multiplataforma para una red de residencias de adultos mayores en Baja California. Módulos de seguimiento clínico, respuesta a emergencias 24/7 y acceso a centros certificados ISO 9001:2015.</div>
+  </div>
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">INDEX — idooGROUP Technologies Inc.</span>
+      <span class="proj-period">Ago 2024 – Ene 2026</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · México · RRHH Empresarial</div>
+    <div class="proj-desc">App multiplataforma que conecta trabajadores con beneficios sindicales: cuestionarios NOM-035, inscripción a eventos, cupones, notificaciones en tiempo real y autenticación segura.</div>
+  </div>
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">eVisas — Grupo Business IT</span>
+      <span class="proj-period">Jun 2024</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Angular</span> · Ecuador · Gobierno</div>
+    <div class="proj-desc">Módulos clave para el sistema oficial del Gobierno de Ecuador de gestión electrónica de visas. Flujos críticos de solicitud, cancelación y transferencia tanto en la interfaz pública como en el panel administrativo.</div>
+  </div>
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">Swin Drinks — Swin Soft, LLC</span>
+      <span class="proj-period">Dic 2023 – Jun 2024</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · EE. UU. · Vida Nocturna y Eventos</div>
+    <div class="proj-desc">App móvil multiplataforma para bares, clubes y eventos. Pedidos in-app, "Flash Passes" de acceso prioritario y dashboard de gestión de eventos en tiempo real para decisiones operativas basadas en datos.</div>
+  </div>
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">Street Rent a Car — idooGROUP Technologies Inc.</span>
+      <span class="proj-period">Nov 2023 – Jun 2024</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · México · Automotriz · <a href="https://apps.apple.com/mx/app/street-rent-a-car/id6478752296">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.idoogroup.srac">Play Store</a></div>
+    <div class="proj-desc">App de alquiler de vehículos con sistema de reservas, gestión de flota, programa de recompensas y soporte multi-sucursal. Publicada en App Store y Google Play.</div>
+  </div>
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">SINI / AlertaDO — Deneb Latinoamericana, Inc.</span>
+      <span class="proj-period">Feb 2023 – Jul 2023</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · EE. UU. / Rep. Dominicana · Gobierno · Defensa Civil</div>
+    <div class="proj-desc">App móvil oficial "AlertaDO" para la Defensa Civil y el Sistema Integrado Nacional de Información (SINI). Sistema de alertas tempranas para notificaciones en tiempo real de amenazas naturales y antrópicas.</div>
+  </div>
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">Ganaclima — Deneb Latinoamericana, Inc.</span>
+      <span class="proj-period">Oct 2022 – Jul 2023</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · EE. UU. / Rep. Dominicana · FAO / Agricultura</div>
+    <div class="proj-desc">App móvil para GanaclimaRD, iniciativa nacional asistida por la FAO (Naciones Unidas) para ayudar a agricultores a adoptar prácticas climáticamente inteligentes.</div>
+  </div>
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">SUPI Plus — CademSmart</span>
+      <span class="proj-period">Feb 2022 – Dic 2022</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · Chile · Inteligencia de Mercado</div>
+    <div class="proj-desc">App móvil de auditoría para la firma CademSmart, digitalizando la recolección de datos en punto de venta: disponibilidad de stock, precios y cumplimiento de promociones para clientes B2B.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Proyectos Adicionales</div>
+  <table style="width:100%; font-size:8.5pt; border-collapse:collapse;">
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Das Cortez</td>
+      <td style="color:#6b7280;">idooGROUP · México</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">Abr–Jun 2025</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Stream Dealer</td>
+      <td style="color:#6b7280;">idooGROUP · México</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">Jun–Nov 2023</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Good Crown v2</td>
+      <td style="color:#6b7280;">Confidencial · EE. UU.</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">May–Sep 2023</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">CUSAF / AgroFor</td>
+      <td style="color:#6b7280;">Deneb Latinoamericana · EE. UU.</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">Ene–Jul 2023</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Xpertopolis</td>
+      <td style="color:#6b7280;">Peoplewalking · España</td>
+      <td style="color:#059669;font-weight:600;">Ionic / Angular</td>
+      <td style="color:#6b7280;text-align:right;">Jul–Dic 2022</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Business Series Tool</td>
+      <td style="color:#6b7280;">Peoplewalking · España</td>
+      <td style="color:#059669;font-weight:600;">Ionic / Angular</td>
+      <td style="color:#6b7280;text-align:right;">Jun 2021–Dic 2022</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Good Crown v1</td>
+      <td style="color:#6b7280;">idooGROUP · México</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">Nov 2020–May 2021</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">CIMEMP</td>
+      <td style="color:#6b7280;">idooGROUP · México</td>
+      <td style="color:#059669;font-weight:600;">Ionic / Angular</td>
+      <td style="color:#6b7280;text-align:right;">Jul–Sep 2020</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">COVID-19 Test</td>
+      <td style="color:#6b7280;">idooGROUP · México</td>
+      <td style="color:#059669;font-weight:600;">Ionic / Angular</td>
+      <td style="color:#6b7280;text-align:right;">Abr–Jun 2020</td>
+    </tr>
+    <tr>
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">GETRIX</td>
+      <td style="color:#6b7280;">Instapack · España</td>
+      <td style="color:#059669;font-weight:600;">HTML / CSS / JS</td>
+      <td style="color:#6b7280;text-align:right;">Ene–Jul 2018</td>
+    </tr>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">Educación</div>
+  <div class="edu-header">
+    <span class="edu-degree">Licenciatura en Ciencias de la Computación</span>
+  </div>
+  <div class="edu-school">Universidad de Oriente — Santiago de Cuba, Cuba</div>
+  <div class="edu-courses"><strong>Materias principales:</strong> Estructura de Datos y Algoritmos, Diseño y Análisis de Algoritmos, Sistemas de Bases de Datos, Redes de Computadoras, Sistemas Operativos, Técnicas de Compilación, Ingeniería de Software, Inteligencia Artificial, Reconocimiento de Patrones, Programación en C/C++.</div>
+</div>
+
+<div class="section">
+  <div class="section-title">Información Adicional</div>
+  <div class="additional-grid">
+    <div><span class="add-label">Idiomas:</span> Español (Nativo), Inglés (Competencia Profesional)</div>
+    <div><span class="add-label">Referencias:</span> Carta de recomendación de Arturo Aranguren, Presidente de Deneb Latinoamericana Inc.</div>
+    <div><span class="add-label">Modalidad:</span> Remoto · Disponible para tiempo completo, contrato o freelance</div>
+    <div><span class="add-label">Portafolio:</span> <a href="https://javierfernandezvaca.github.io/Curriculum-Vitae/">javierfernandezvaca.github.io/Curriculum-Vitae</a></div>
+  </div>
+</div>
+
+</body>
+</html>

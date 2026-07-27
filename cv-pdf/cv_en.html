@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Javier Fernández Vaca - Software Engineer Resume</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0.55in 0.65in;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #1f2937;
+    font-size: 9.5pt;
+    line-height: 1.45;
+    background: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  a { color: #059669; text-decoration: none; }
+
+  /* Header */
+  .header { text-align: center; margin-bottom: 14pt; padding-bottom: 10pt; border-bottom: 2.5pt solid #059669; }
+  .header h1 { font-size: 26pt; font-weight: 800; color: #111827; letter-spacing: -0.5pt; margin-bottom: 2pt; }
+  .header .title { font-size: 12pt; font-weight: 600; color: #059669; margin-bottom: 8pt; }
+  .header .contact { font-size: 8.5pt; color: #4b5563; display: flex; flex-wrap: wrap; justify-content: center; gap: 4pt 14pt; }
+  .header .contact span { white-space: nowrap; }
+
+  /* Sections */
+  .section { margin-bottom: 12pt; }
+  .section-title {
+    font-size: 11pt; font-weight: 700; color: #059669;
+    text-transform: uppercase; letter-spacing: 1.5pt;
+    border-bottom: 1pt solid #d1d5db;
+    padding-bottom: 3pt; margin-bottom: 7pt;
+  }
+
+  /* Summary */
+  .summary { font-size: 9.5pt; color: #374151; line-height: 1.5; }
+
+  /* Skills grid */
+  .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3pt 20pt; }
+  .skill-row { display: flex; gap: 6pt; }
+  .skill-label { font-weight: 700; color: #374151; min-width: 70pt; font-size: 9pt; }
+  .skill-items { color: #4b5563; font-size: 9pt; }
+
+  /* Experience */
+  .exp-entry { margin-bottom: 10pt; }
+  .exp-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .exp-title { font-size: 10.5pt; font-weight: 700; color: #111827; }
+  .exp-period { font-size: 8.5pt; color: #059669; font-weight: 600; white-space: nowrap; }
+  .exp-subtitle { font-size: 9pt; color: #6b7280; font-style: italic; margin-bottom: 3pt; }
+  .exp-desc { font-size: 9pt; color: #4b5563; }
+  .exp-desc li { margin-left: 12pt; margin-bottom: 1pt; }
+
+  /* Projects */
+  .project { margin-bottom: 7pt; page-break-inside: avoid; }
+  .proj-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1pt; }
+  .proj-name { font-weight: 700; font-size: 9.5pt; color: #111827; }
+  .proj-period { font-size: 8pt; color: #059669; font-weight: 600; }
+  .proj-meta { font-size: 8.5pt; color: #6b7280; margin-bottom: 2pt; }
+  .proj-meta .tech { font-weight: 600; color: #059669; }
+  .proj-desc { font-size: 8.5pt; color: #4b5563; line-height: 1.4; }
+
+  /* Education */
+  .edu-header { display: flex; justify-content: space-between; align-items: baseline; }
+  .edu-degree { font-size: 10.5pt; font-weight: 700; color: #111827; }
+  .edu-school { font-size: 9pt; color: #6b7280; font-style: italic; }
+  .edu-courses { font-size: 8.5pt; color: #4b5563; margin-top: 3pt; }
+
+  /* Additional */
+  .additional-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2pt 20pt; font-size: 9pt; }
+  .add-label { font-weight: 700; color: #374151; }
+
+  /* Page break helper */
+  .page-break { page-break-before: always; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <h1>JAVIER FERNÁNDEZ VACA</h1>
+  <div class="title">Full-Stack Software Engineer</div>
+  <div class="contact">
+    <span>✉ javierfernandezvaca@gmail.com</span>
+    <span>✆ +53 56073219</span>
+    <span>⌂ Guantánamo, Cuba</span>
+    <span>🔗 <a href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-vaca-1b7b12189/">LinkedIn</a></span>
+    <span>⌨ <a href="https://github.com/javierfernandezvaca">GitHub</a></span>
+    <span>🌐 <a href="https://javierfernandezvaca.github.io/Curriculum-Vitae/">Portfolio</a></span>
+  </div>
+</div>
+
+<!-- PROFESSIONAL SUMMARY -->
+<div class="section">
+  <div class="section-title">Professional Summary</div>
+  <div class="summary">
+    Full-stack Software Engineer with <strong>13+ years of experience</strong> designing and building high-performance mobile and web applications for international clients across <strong>USA, Mexico, Ecuador, Spain, Chile, and Cuba</strong>. Expert in <strong>Flutter</strong> and <strong>Angular</strong> with a proven track record of delivering <strong>19+ production-grade projects</strong> spanning government systems, healthcare, fintech, e-commerce, and enterprise platforms. University professor with strong communication and mentoring skills. Fluent in Spanish; professional proficiency in English.
+  </div>
+</div>
+
+<!-- TECHNICAL SKILLS -->
+<div class="section">
+  <div class="section-title">Technical Skills</div>
+  <div class="skills-grid">
+    <div class="skill-row">
+      <span class="skill-label">Mobile:</span>
+      <span class="skill-items"><strong>Flutter (Expert)</strong>, Ionic, Kotlin Multiplatform</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-label">Frontend:</span>
+      <span class="skill-items"><strong>Angular (Expert)</strong>, React, Vue, HTML/CSS/JS</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-label">Backend:</span>
+      <span class="skill-items">Go, Laravel, Spring Boot, NestJS, .NET Core, Node.js</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-label">Desktop:</span>
+      <span class="skill-items">Flutter Desktop, C/C++</span>
+    </div>
+  </div>
+</div>
+
+<!-- PROFESSIONAL EXPERIENCE -->
+<div class="section">
+  <div class="section-title">Professional Experience</div>
+
+  <div class="exp-entry">
+    <div class="exp-header">
+      <span class="exp-title">Freelance Software Engineer</span>
+      <span class="exp-period">2011 – Present</span>
+    </div>
+    <div class="exp-subtitle">Remote — International Clients</div>
+    <div class="exp-desc">
+      <ul>
+        <li>Delivered 19+ production applications for clients in 6 countries, specializing in cross-platform mobile (Flutter) and web (Angular) development.</li>
+        <li>Built government-grade systems including Ecuador's official e-Visa platform and the Dominican Republic's national civil defense app (AlertaDO).</li>
+        <li>Developed enterprise solutions for healthcare (Serena Care), automotive (Street Rent a Car), hospitality (Swin Drinks), and agriculture (Ganaclima/FAO).</li>
+        <li>Received official recommendation letter from Deneb Latinoamericana Inc. for excellence in delivery across 3 concurrent projects.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="exp-entry">
+    <div class="exp-header">
+      <span class="exp-title">University Professor — Computer Science</span>
+      <span class="exp-period">2015 – Present</span>
+    </div>
+    <div class="exp-subtitle">Universidad de Guantánamo — Faculty of Computer Engineering</div>
+    <div class="exp-desc">
+      <ul>
+        <li>Promoted from Instructor Professor (2015) to Assistant Professor (2020).</li>
+        <li>Lead development of innovative technology solutions and general-purpose applications for national companies and Cuban universities.</li>
+        <li>Teach and mentor students in software engineering, mobile development, and modern web technologies.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- SELECTED PROJECTS -->
+<div class="section">
+  <div class="section-title">Selected Projects</div>
+
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">Serena Care — idooGROUP Technologies Inc.</span>
+      <span class="proj-period">May 2025 – Jan 2026</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · Mexico · Healthcare</div>
+    <div class="proj-desc">Built a cross-platform mobile app for a senior care residence network in Baja California. Implemented clinical tracking modules, emergency response features, and access to ISO 9001:2015 certified center information.</div>
+  </div>
+
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">INDEX — idooGROUP Technologies Inc.</span>
+      <span class="proj-period">Aug 2024 – Jan 2026</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · Mexico · Enterprise HR</div>
+    <div class="proj-desc">Developed a cross-platform app connecting workers with union benefits: wellness questionnaires (NOM-035 compliance), event registration, coupons, real-time notifications, and secure authentication.</div>
+  </div>
+
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">eVisas — Grupo Business IT</span>
+      <span class="proj-period">Jun 2024</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Angular</span> · Ecuador · Government</div>
+    <div class="proj-desc">Developed key modules for Ecuador's official electronic visa management system. Implemented critical flows for visa applications, cancellations, and transfers across both the public-facing interface and internal admin panel.</div>
+  </div>
+
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">Swin Drinks — Swin Soft, LLC</span>
+      <span class="proj-period">Dec 2023 – Jun 2024</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · USA · Nightlife & Events</div>
+    <div class="proj-desc">Built a cross-platform mobile app for bars, clubs, and events. Implemented in-app ordering, "Flash Passes" for priority access, and a real-time event management dashboard for data-driven operational decisions.</div>
+  </div>
+
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">Street Rent a Car — idooGROUP Technologies Inc.</span>
+      <span class="proj-period">Nov 2023 – Jun 2024</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · Mexico · Automotive · <a href="https://apps.apple.com/mx/app/street-rent-a-car/id6478752296">App Store</a> · <a href="https://play.google.com/store/apps/details?id=com.idoogroup.srac">Play Store</a></div>
+    <div class="proj-desc">Developed cross-platform vehicle rental app with an intuitive booking system, fleet management, rewards program, and multi-branch support. Published on both App Store and Google Play.</div>
+  </div>
+
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">SINI / AlertaDO — Deneb Latinoamericana, Inc.</span>
+      <span class="proj-period">Feb 2023 – Jul 2023</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · USA / Dominican Republic · Government · Civil Defense</div>
+    <div class="proj-desc">Implemented the official "AlertaDO" mobile app for the Dominican Republic's Civil Defense and National Integrated Information System (SINI). Built the early warning system for real-time natural and man-made threat notifications.</div>
+  </div>
+
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">Ganaclima — Deneb Latinoamericana, Inc.</span>
+      <span class="proj-period">Oct 2022 – Jul 2023</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · USA / Dominican Republic · FAO Agriculture</div>
+    <div class="proj-desc">Developed the mobile app for GanaclimaRD, a national initiative assisted by the FAO (United Nations) helping farmers adopt climate-smart practices to reduce emissions and increase productivity.</div>
+  </div>
+
+  <div class="project">
+    <div class="proj-header">
+      <span class="proj-name">SUPI Plus — CademSmart</span>
+      <span class="proj-period">Feb 2022 – Dec 2022</span>
+    </div>
+    <div class="proj-meta"><span class="tech">Flutter</span> · Chile · Market Intelligence</div>
+    <div class="proj-desc">Built a field audit mobile app for market intelligence firm CademSmart, digitizing point-of-sale data collection including stock availability, pricing, and promotion compliance for B2B clients.</div>
+  </div>
+</div>
+
+<!-- ADDITIONAL PROJECTS -->
+<div class="section">
+  <div class="section-title">Additional Projects</div>
+  <table style="width:100%; font-size:8.5pt; border-collapse:collapse;">
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Das Cortez</td>
+      <td style="color:#6b7280;">idooGROUP · Mexico</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">Apr–Jun 2025</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Stream Dealer</td>
+      <td style="color:#6b7280;">idooGROUP · Mexico</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">Jun–Nov 2023</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Good Crown v2</td>
+      <td style="color:#6b7280;">Confidential · USA</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">May–Sep 2023</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">CUSAF / AgroFor</td>
+      <td style="color:#6b7280;">Deneb Latinoamericana · USA</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">Jan–Jul 2023</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Xpertopolis</td>
+      <td style="color:#6b7280;">Peoplewalking · Spain</td>
+      <td style="color:#059669;font-weight:600;">Ionic / Angular</td>
+      <td style="color:#6b7280;text-align:right;">Jul–Dec 2022</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Business Series Tool</td>
+      <td style="color:#6b7280;">Peoplewalking · Spain</td>
+      <td style="color:#059669;font-weight:600;">Ionic / Angular</td>
+      <td style="color:#6b7280;text-align:right;">Jun 2021–Dec 2022</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">Good Crown v1</td>
+      <td style="color:#6b7280;">idooGROUP · Mexico</td>
+      <td style="color:#059669;font-weight:600;">Flutter</td>
+      <td style="color:#6b7280;text-align:right;">Nov 2020–May 2021</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">CIMEMP</td>
+      <td style="color:#6b7280;">idooGROUP · Mexico</td>
+      <td style="color:#059669;font-weight:600;">Ionic / Angular</td>
+      <td style="color:#6b7280;text-align:right;">Jul–Sep 2020</td>
+    </tr>
+    <tr style="border-bottom:0.5pt solid #e5e7eb;">
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">COVID-19 Test</td>
+      <td style="color:#6b7280;">idooGROUP · Mexico</td>
+      <td style="color:#059669;font-weight:600;">Ionic / Angular</td>
+      <td style="color:#6b7280;text-align:right;">Apr–Jun 2020</td>
+    </tr>
+    <tr>
+      <td style="padding:2pt 0;font-weight:600;color:#111827;">GETRIX</td>
+      <td style="color:#6b7280;">Instapack · Spain</td>
+      <td style="color:#059669;font-weight:600;">HTML / CSS / JS</td>
+      <td style="color:#6b7280;text-align:right;">Jan–Jul 2018</td>
+    </tr>
+  </table>
+</div>
+
+<!-- EDUCATION -->
+<div class="section">
+  <div class="section-title">Education</div>
+  <div class="edu-header">
+    <span class="edu-degree">Bachelor of Science in Computer Science</span>
+  </div>
+  <div class="edu-school">Universidad de Oriente — Santiago de Cuba, Cuba</div>
+  <div class="edu-courses"><strong>Key coursework:</strong> Data Structures & Algorithms, Algorithm Design & Analysis, Database Systems, Computer Networks, Operating Systems, Compilers, Software Engineering, Artificial Intelligence, Pattern Recognition, C/C++ Programming.</div>
+</div>
+
+<!-- ADDITIONAL -->
+<div class="section">
+  <div class="section-title">Additional Information</div>
+  <div class="additional-grid">
+    <div><span class="add-label">Languages:</span> Spanish (Native), English (Professional Working Proficiency)</div>
+    <div><span class="add-label">References:</span> Recommendation letter from Arturo Aranguren, President of Deneb Latinoamericana Inc.</div>
+    <div><span class="add-label">Work Mode:</span> Remote · Available for full-time, contract, or freelance engagements</div>
+    <div><span class="add-label">Portfolio:</span> <a href="https://javierfernandezvaca.github.io/Curriculum-Vitae/">javierfernandezvaca.github.io/Curriculum-Vitae</a></div>
+  </div>
+</div>
+
+</body>
+</html>

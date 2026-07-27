@@ -44,6 +44,14 @@ interface Project {
 // --- Data ---
 const PROJECTS: Project[] = [
   {
+    title: "Wow Pedro",
+    client: "MIPYME Wow Pedro",
+    country: "🇨🇺 Cuba",
+    tech: ["Flutter", "Node", "IA"],
+    description: "Desarrollo en proceso de un ecosistema integrado para la automatización total del negocio y su infraestructura. El sistema cuenta con varias apps principales: un Bot de WhatsApp que procesa datos automáticamente usando IA, un Dashboard CRM para la gestión completa de operaciones, un Sistema de Ventas con administración de inventario, stock y caja, y un Contador de Efectivo profesional personalizado.",
+    period: "2026 – Presente"
+  },
+  {
     title: "Serena Care",
     client: "idooGROUP Technologies Inc",
     country: "🇲🇽 México",
@@ -126,7 +134,7 @@ const PROJECTS: Project[] = [
     description: "Implementé la aplicación móvil oficial \"AlertaDO\" para la Defensa Civil y el Sistema Integrado Nacional de Información (SINI). Esta herramienta es clave para la gestión de riesgos en República Dominicana y el Caribe, ya que permite a los ciudadanos reportar incidencias de forma ágil y segura. Desarrollé el sistema de alertas tempranas para notificar amenazas naturales y antrópicas en tiempo real, garantizando una respuesta oportuna ante situaciones de peligro.",
     links: [{ label: "Play Store", url: "https://play.google.com/store/apps/details?id=do.sini.alertado", icon: Play }],
     period: "Febrero 2023 – Julio 2023",
-    recommendationLetter: "/Curriculum-Vitae/recommendation_letter_deneb.pdf"
+    recommendationLetter: import.meta.env.BASE_URL + "recommendation_letter_deneb.pdf"
   },
   {
     title: "CUSAF",
@@ -136,7 +144,7 @@ const PROJECTS: Project[] = [
     description: "Implementé una aplicación móvil multiplataforma de gestión agrícola empresarial para el proyecto AgroFor. Desarrollé módulos para la optimización de procesos clave, el seguimiento de la producción en tiempo real y el análisis de datos, mejorando la toma de decisiones estratégicas para las operaciones agrícolas del cliente.",
     links: [{ label: "Web", url: "https://www.agrofor.info/", icon: Globe }],
     period: "Enero 2023 – Julio 2023",
-    recommendationLetter: "/Curriculum-Vitae/recommendation_letter_deneb.pdf"
+    recommendationLetter: import.meta.env.BASE_URL + "recommendation_letter_deneb.pdf"
   },
   {
     title: "Ganaclima",
@@ -146,7 +154,7 @@ const PROJECTS: Project[] = [
     description: "Desarrollé la aplicación móvil para GanaclimaRD, una iniciativa nacional asistida por la FAO que ayuda a los agricultores a adoptar prácticas climáticamente inteligentes para reducir emisiones y aumentar la productividad.",
     links: [{ label: "Web", url: "https://ganaderiayclimard.do/ganaclima/", icon: Globe }],
     period: "Octubre 2022 – Julio 2023",
-    recommendationLetter: "/Curriculum-Vitae/recommendation_letter_deneb.pdf"
+    recommendationLetter: import.meta.env.BASE_URL + "recommendation_letter_deneb.pdf"
   },
   {
     title: "SUPI Plus",
@@ -232,7 +240,7 @@ const SKILLS = {
     icon: <Globe className="w-5 h-5" />,
     items: [
       { name: 'Angular', level: 'expert' },
-      { name: 'React', level: 'proficient' },
+      { name: 'React', level: 'competent' },
       { name: 'Ionic', level: 'proficient' },
       { name: 'Vue', level: 'competent' },
       { name: 'HTML / CSS / JS', level: 'expert' }
@@ -245,14 +253,15 @@ const SKILLS = {
       { name: 'Laravel', level: 'proficient' },
       { name: 'Spring Boot', level: 'competent' },
       { name: 'NestJS', level: 'competent' },
-      { name: '.NET Core', level: 'competent' }
+      { name: '.NET Core', level: 'competent' },
+      { name: 'Node', level: 'competent' }
     ]
   },
   'Escritorio': {
     icon: <Terminal className="w-5 h-5" />,
     items: [
-      { name: 'Flutter Desktop', level: 'proficient' },
-      { name: 'C / C++', level: 'proficient' }
+      { name: 'Flutter', level: 'expert' },
+      { name: 'C / C++', level: 'expert' }
     ]
   }
 };
@@ -289,6 +298,7 @@ const SectionHeader = ({ title, subtitle, icon: Icon }: { title: string, subtitl
 
 export default function App() {
   const [activeFilter, setActiveFilter] = useState('Todos');
+  const [cvDropdownOpen, setCvDropdownOpen] = useState(false);
 
   const techFilters = ['Todos', 'Móvil', 'Web', 'Flutter', 'Angular'];
 
@@ -361,7 +371,7 @@ export default function App() {
               Ingeniero full-stack con más de <span className="text-emerald-400 font-semibold">13 años de experiencia</span> creando
               aplicaciones móviles y web de alto rendimiento. Con sede en Cuba, trabajando para el mundo.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 items-center">
               <a
                 href="#projects"
                 className="group flex items-center gap-2 px-6 py-3.5 bg-emerald-500 text-white rounded-xl font-semibold hover:bg-emerald-400 transition-all shadow-lg shadow-emerald-500/25"
@@ -370,6 +380,41 @@ export default function App() {
                 Ver portafolio
                 <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </a>
+
+              {/* CV Download Dropdown */}
+              <div className="relative">
+                <button
+                  onClick={() => setCvDropdownOpen(!cvDropdownOpen)}
+                  className="group flex items-center gap-2 px-6 py-3.5 bg-zinc-900 border border-white/10 hover:border-emerald-500/30 text-white rounded-xl font-semibold hover:bg-zinc-800 transition-all shadow-lg cursor-pointer"
+                >
+                  <Download className="w-4 h-4 text-zinc-400 group-hover:text-emerald-400 transition-colors" />
+                  Descargar CV
+                </button>
+                {cvDropdownOpen && (
+                  <>
+                    <div className="fixed inset-0 z-40" onClick={() => setCvDropdownOpen(false)} />
+                    <div className="absolute left-0 mt-2 w-48 rounded-xl bg-zinc-900 border border-white/10 shadow-2xl z-50 overflow-hidden py-1">
+                      <a
+                        href={import.meta.env.BASE_URL + "Javier_Fernandez_Vaca_Resume_ES.pdf"}
+                        download="Javier_Fernandez_Vaca_Resume_ES.pdf"
+                        onClick={() => setCvDropdownOpen(false)}
+                        className="flex items-center gap-2 px-4 py-2.5 text-sm text-zinc-300 hover:text-white hover:bg-white/5 transition-colors"
+                      >
+                        Español (PDF)
+                      </a>
+                      <a
+                        href={import.meta.env.BASE_URL + "Javier_Fernandez_Vaca_Resume_EN.pdf"}
+                        download="Javier_Fernandez_Vaca_Resume_EN.pdf"
+                        onClick={() => setCvDropdownOpen(false)}
+                        className="flex items-center gap-2 px-4 py-2.5 text-sm text-zinc-300 hover:text-white hover:bg-white/5 transition-colors"
+                      >
+                        English (PDF)
+                      </a>
+                    </div>
+                  </>
+                )}
+              </div>
+
               <div className="flex items-center gap-3 px-2">
                 <a href="mailto:javierfernandezvaca@gmail.com" className="p-3 rounded-xl border border-white/10 hover:bg-white/5 hover:border-emerald-500/30 transition-all">
                   <Mail className="w-5 h-5 text-zinc-400" />
@@ -407,7 +452,7 @@ export default function App() {
           >
             <div className="aspect-square rounded-[2rem] overflow-hidden bg-zinc-800 relative z-10 border-2 border-white/10 shadow-2xl shadow-emerald-500/5">
               <img
-                src="/Curriculum-Vitae/profile-image.jpg"
+                src={import.meta.env.BASE_URL + "profile-image.jpg"}
                 alt="Javier Fernández Vaca"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
